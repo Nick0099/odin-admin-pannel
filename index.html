@@ -7,6 +7,143 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <aside>
+        <div class="brand">
+            <span class="brand-icon">⚕</span>
+            <span>Nick0099</span>
+        </div>
+        <nav>
+            <p class="nav-label">Main</p>
+            <ul>
+                <li><a class="active"> Home</a></li>
+                <li><a > Profile</a></li>
+                <li><a > Messages</a></li>
+                <li><a > History</a></li>
+            </ul>
+        </nav>
+        <nav>
+            <p class="nav-label">Settings</p>
+            <ul>
+                <li><a > Settings</a></li>
+                <li><a > Privacy</a></li>
+                <li><a > Help</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <header>
+        <div class="header-top">
+            <div class="search-bar">
+                <span class="search-icon">🔍</span>
+                <input type="text" placeholder="Search projects...">
+            </div>
+            <div class="user-info">
+                <div class="avatar-sm">N</div>
+                <span>Nischal</span>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="avatar-lg">N</div>
+            <div class="welcome-text">
+                <p class="welcome-sub">Welcome back,</p>
+                <p class="welcome-name">Nischal Neupane</p>
+            </div>
+            <div class="header-actions">
+                <button class="btn-outline">+ New</button>
+                <button class="btn-outline">↑ Upload</button>
+                <button class="btn-primary">Share</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="projects">
+            <h2>Your Projects</h2>
+            <div class="project-grid">
+                <div class="project-card featured">
+                    <div class="card-tag">Django + React</div>
+                    <h3>E-Commerce App</h3>
+                    <p>A full-featured e-commerce platform with product listing, cart, orders, JWT authentication, and PostgreSQL.</p>
+                    <a href="https://github.com/Nick0099/E_Commerce" class="btn-secondary" target="_blank">View on GitHub →</a>
+                </div>
+                <div class="project-card featured">
+                    <div class="card-tag">Django + React</div>
+                    <h3>Hospital Management System</h3>
+                    <p>Manages patients, doctors, appointments, and medical records with role-based access control.</p>
+                    <a href="https://github.com/Nick0099/hospital-django" class="btn-secondary" target="_blank">View on GitHub →</a>
+                </div>
+                <div class="project-card">
+                    <div class="card-tag">HTML</div>
+                    <h3>Framework Change</h3>
+                    <p>Marking the transition from Django full stack to JavaScript full stack development.</p>
+                    <a href="https://github.com/Nick0099/odin-recipes" class="btn-secondary" target="_blank">View on GitHub →</a>
+                </div>
+                <div class="project-card">
+                    <div class="card-tag">JS + DOM</div>
+                    <h3>Etch a Sketch</h3>
+                    <p>A browser sketchpad with dynamic grid sizing, color painting, and clear/reset controls.</p>
+                    <a href="https://github.com/Nick0099/odin-etch-a-sketch" class="btn-secondary" target="_blank">View on GitHub →</a>
+                </div>
+                <div class="project-card">
+                    <div class="card-tag">JS</div>
+                    <h3>Calculator</h3>
+                    <p>Functional calculator with chained operations, decimal support, and edge case handling.</p>
+                    <a href="https://github.com/Nick0099/odin-calculator" class="btn-secondary" target="_blank">View on GitHub →</a>
+                </div>
+                <div class="project-card">
+                    <div class="card-tag">HTML + CSS</div>
+                    <h3>Sign Up Form</h3>
+                    <p>Styled sign-up page with :focus and :user-invalid validation states and flexbox layout.</p>
+                    <a href="https://github.com/Nick0099/odin-signup" class="btn-secondary" target="_blank">View on GitHub →</a>
+                </div>
+            </div>
+        </section>
+
+        <div class="sidebar-right">
+            <section class="announcements">
+                <h2>Announcements</h2>
+                <div class="card">
+                    <h3> BSc CSIT Starting</h3>
+                    <p>Enrolled at Tribhuvan University starting July 2026.</p>
+                </div>
+                <div class="card">
+                    <h3> Nobel Navigators</h3>
+                    <p>Group interview on June 29. Coding specialization selected.</p>
+                </div>
+                <div class="card">
+                    <h3> Odin Progress</h3>
+                    <p>Completed Foundations and intermediate HTML/CSS. Now in Full Stack JS.</p>
+                </div>
+            </section>
+
+            <section class="trending">
+                <h2>Trending Stack</h2>
+                <div class="trend-item">
+                    <div>
+                        <p class="trend-name">JavaScript</p>
+                        <p class="trend-sub">Primary language</p>
+                    </div>
+                </div>
+                <div class="trend-item">
+                    <div>
+                        <p class="trend-name">Node + Express</p>
+                        <p class="trend-sub">Backend target</p>
+                    </div>
+                </div>
+                <div class="trend-item">
+                    <div>
+                        <p class="trend-name">React</p>
+                        <p class="trend-sub">Frontend framework</p>
+                    </div>
+                </div>
+                <div class="trend-item">
+                    <div>
+                        <p class="trend-name">PostgreSQL</p>
+                        <p class="trend-sub">Database</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
 </body>
 </html>
